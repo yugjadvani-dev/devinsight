@@ -1,5 +1,5 @@
 ---
-title: How to add an estimated reading time in AstroPaper
+title: How to add an estimated reading time in DevInsight
 author: Sat Naing
 pubDatetime: 2023-07-21T10:11:06.130Z
 modDatetime: 2024-01-03T14:53:25Z
@@ -8,7 +8,7 @@ featured: false
 draft: false
 tags:
   - FAQ
-description: How you can add an 'Estimated Reading time' in your blog posts of AstroPaper.
+description: How you can add an 'Estimated Reading time' in your blog posts of DevInsight.
 ---
 
 As the [Astro docs](https://docs.astro.build/en/recipes/reading-time/) say, we can use remark plugin to add a reading time property in our frontmatter. However, for some reason, we can't add this feature by following what stated in Astro docs. Therefore, to achieve this, we have to tweak a little bit. This post will demonstrate how we can do that.
@@ -339,6 +339,6 @@ file: PostDetails.tsx
 
 ## Conclusion
 
-By following the provided steps and tweaks, you can now incorporate this useful feature into your content. I hope this post helps you adding `readingTime` in your blog. AstroPaper might include reading time by default in future releases. 🤷🏻‍♂️
+By following the provided steps and tweaks, you can now incorporate this useful feature into your content. I hope this post helps you adding `readingTime` in your blog. DevInsight might include reading time by default in future releases. 🤷🏻‍♂️
 
 Kyay Zuu for Reading 🙏🏻

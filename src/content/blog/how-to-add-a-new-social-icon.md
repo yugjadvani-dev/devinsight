@@ -2,12 +2,12 @@
 author: Simon Smale
 pubDatetime: 2024-01-08T18:16:00.000Z
 modDatetime:
-title: How to add a new Social Icon to AstroPaper
+title: How to add a new Social Icon to DevInsight
 featured: false
 draft: false
 tags:
   - FAQ
-description: How to add a new social icon to AstroPaper
+description: How to add a new social icon to DevInsight
 ---
 
 Hot new platform? Niche corner of the internet? Or one specific to your area? This post will guide you through how to add a new social icon to the theme.
@@ -113,7 +113,7 @@ export const SOCIALS: SocialObjects = [
   /* others */
   {
     name: "StackOverflow",
-    href: "https://stackoverflow.com/search?q=astropaper",
+    href: "https://stackoverflow.com/search?q=DevInsight",
     linkTitle: `See what questions there are about ${SITE.title} on StackOverflow`,
     active: true,
   },

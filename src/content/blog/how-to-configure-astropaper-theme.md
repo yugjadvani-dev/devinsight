@@ -2,17 +2,17 @@
 author: Sat Naing
 pubDatetime: 2022-09-23T04:58:53Z
 modDatetime: 2024-01-15T13:05:56.066Z
-title: How to configure AstroPaper theme
-slug: how-to-configure-astropaper-theme
+title: How to configure DevInsight theme
+slug: how-to-configure-DevInsight-theme
 featured: true
 draft: false
 tags:
   - configuration
   - docs
-description: How you can make AstroPaper theme absolutely yours.
+description: How you can make DevInsight theme absolutely yours.
 ---
 
-AstroPaper is a highly customizable Astro blog theme. With AstroPaper, you can customize everything according to your personal taste. This article will explain how you can make some customizations easily in the config file.
+DevInsight is a highly customizable Astro blog theme. With DevInsight, you can customize everything according to your personal taste. This article will explain how you can make some customizations easily in the config file.
 
 ## Table of contents
 
@@ -28,8 +28,8 @@ export const SITE = {
   website: "https://astro-paper.pages.dev/",
   author: "Sat Naing",
   desc: "A minimal, responsive and SEO-friendly Astro blog theme.",
-  title: "AstroPaper",
-  ogImage: "astropaper-og.jpg",
+  title: "DevInsight",
+  ogImage: "DevInsight-og.jpg",
   lightAndDarkMode: true,
   postPerPage: 3,
   scheduledPostMargin: 15 * 60 * 1000, // 15 minutes
@@ -69,7 +69,7 @@ export const LOCALE = {
 
 You can specify site's title or logo image in `src/config.ts` file.
 
-![An arrow pointing at the website logo](https://res.cloudinary.com/noezectz/v1663911318/astro-paper/AstroPaper-logo-config_goff5l.png)
+![An arrow pointing at the website logo](https://res.cloudinary.com/noezectz/v1663911318/astro-paper/DevInsight-logo-config_goff5l.png)
 
 ```js
 // file: src/config.ts
@@ -81,9 +81,9 @@ export const LOGO_IMAGE = {
 };
 ```
 
-If you specify `LOGO_IMAGE.enable` => `false`, AstroPaper will automatically convert `SITE.title` to the main site text logo.
+If you specify `LOGO_IMAGE.enable` => `false`, DevInsight will automatically convert `SITE.title` to the main site text logo.
 
-If you specify `LOGO_IMAGE.enable` => `true`, AstroPaper will use the logo image as the site's main logo.
+If you specify `LOGO_IMAGE.enable` => `true`, DevInsight will use the logo image as the site's main logo.
 
 You have to specify `logo.png` or `logo.svg` under `/public/assets` directory. Currently, only svg and png image file formats are supported. (**_Important!_** _logo name has to be logo.png or logo.svg)_
 
@@ -142,7 +142,7 @@ export const SOCIALS: SocialObjects = [
 ]
 ```
 
-Another thing to note is that you can specify the `linkTitle` in the object. This text will display when hovering on the social icon link. Besides, this will improve accessibility and SEO. AstroPaper provides default link title values; but you can replace them with your own texts.
+Another thing to note is that you can specify the `linkTitle` in the object. This text will display when hovering on the social icon link. Besides, this will improve accessibility and SEO. DevInsight provides default link title values; but you can replace them with your own texts.
 
 For example,
 
@@ -158,4 +158,4 @@ linkTitle: `Follow ${SITE.title} on Twitter`;
 
 ## Conclusion
 
-This is the brief specification of how you can customize this theme. You can customize more if you know some coding. For customizing styles, please read [this article](https://astro-paper.pages.dev/posts/customizing-astropaper-theme-color-schemes/). Thanks for reading.✌🏻
+This is the brief specification of how you can customize this theme. You can customize more if you know some coding. For customizing styles, please read [this article](https://astro-paper.pages.dev/posts/customizing-DevInsight-theme-color-schemes/). Thanks for reading.✌🏻
