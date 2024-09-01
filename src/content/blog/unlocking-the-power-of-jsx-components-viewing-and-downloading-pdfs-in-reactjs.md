@@ -7,7 +7,6 @@ featured: true
 draft: false
 tags:
   - react
-  - principle
 description: As we draw the curtains on this journey, I extend my sincerest gratitude to you, dear reader, for accompanying us through the corridors of JSX component magic.
 image: ./images/code3.webp
 ---
