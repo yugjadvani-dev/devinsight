@@ -23,7 +23,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
   <Header />
   <main id="main-content">
     <section id="hero">
-      <h1>Mingalaba</h1>
+      <h1>Welcome to DevInsight</h1>
       <a
         target="_blank"
         href="/rss.xml"
@@ -42,25 +42,16 @@ const socialCount = SOCIALS.filter(social => social.active).length;
       </a>
 
       <p>
-        DevInsight is a minimal, responsive, accessible and SEO-friendly Astro
-        blog theme. This theme follows best practices and provides accessibility
-        out of the box. Light and dark mode are supported by default. Moreover,
-        additional color schemes can also be configured.
+      DevInsight is a minimal, responsive, accessible, and SEO-friendly blog platform designed and developed specifically for developers. I built this blog app from scratch, focusing on best practices and ensuring accessibility right out of the box. Both light and dark modes are supported by default, with options to configure additional color schemes.
       </p>
       <p>
-        Read the blog posts or check
-        <LinkButton
-          className="underline decoration-dashed underline-offset-4 hover:text-skin-accent"
-          href="https://github.com/satnaing/astro-paper#readme"
-        >
-          README
-        </LinkButton> for more info.
+        Explore the blog posts to gain insights into the latest in technology and development. For more details on the development of DevInsight, you can check out the project repository.
       </p>
       {
         // only display if at least one social link is enabled
         socialCount > 0 && (
           <div class="social-wrapper">
-            <div class="social-links">Social Links:</div>
+            <div class="social-links">Connect with us on:</div>
             <Socials />
           </div>
         )

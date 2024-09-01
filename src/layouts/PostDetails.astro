@@ -8,6 +8,7 @@ import type { CollectionEntry } from "astro:content";
 import { slugifyStr } from "@utils/slugify";
 import ShareLinks from "@components/ShareLinks.astro";
 import { SITE } from "@config";
+import { Image } from "astro:assets";
 
 export interface Props {
   post: CollectionEntry<"blog">;
@@ -24,6 +25,7 @@ const {
   pubDatetime,
   modDatetime,
   tags,
+  image
 } = post.data;
 
 const { Content } = await post.render();
@@ -43,6 +45,7 @@ const layoutProps = {
   canonicalURL,
   ogImage: ogUrl,
   scrollSmooth: true,
+  // image
 };
 ---
 
@@ -62,6 +65,16 @@ const layoutProps = {
     </button>
   </div>
   <main id="main-content">
+
+    <Image
+      src={image}
+      alt={title}
+      width={1024}
+      height={1024 / 1.5}
+      format="webp"
+      class="my-8 shadow-xl aspect-thumbnail object-cover"
+    />
+
     <h1 transition:name={slugifyStr(title)} class="post-title">{title}</h1>
     <Datetime
       pubDatetime={pubDatetime}
