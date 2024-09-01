@@ -8,10 +8,12 @@ draft: false
 tags:
   - react
   - typescript
-  - vitjs
+  - vitejs
 description: Say hello to productivity and bid farewell to relative path woes.
 image: ./images/vite.webp
 ---
+
+## Table of contents
 
 ## Command for creating a Vite app:
 
