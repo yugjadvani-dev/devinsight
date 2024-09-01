@@ -7,6 +7,7 @@ featured: true
 draft: false
 tags:
   - react
+  - principle
 description: React’s functional components provide an excellent platform for adhering to the DRY principle.
 image: ./images/react-logo.webp
 ---
@@ -103,15 +104,14 @@ export default App;
 ## Benefits of Embracing the DRY Principle in React
 
 1. Code Reusability: Reusable components lead to cleaner, more maintainable code.
-
 2. Consistency: Using consistent components ensures a uniform look and feel across the application.
-
 3. Easier Maintenance: When changes are needed, you only have to update one component, rather than making the same change in multiple places.
-
 4. Scalability: DRY code is easier to scale as your application grows.
 
 In conclusion, React’s functional components provide an excellent platform for adhering to the DRY principle. By creating reusable components, you not only reduce redundancy but also enhance the maintainability and scalability of your application.
 
 Remember, in the world of React, less repetition means more efficient and elegant code! Happy coding!
+
+---
 
 > Enjoyed the read? If you found this article insightful or helpful, consider supporting my work by buying me a coffee. Your contribution helps fuel more content like this. [Click here](https://buymeacoffee.com/yugjadvani9) to treat me to a virtual coffee. Cheers!
