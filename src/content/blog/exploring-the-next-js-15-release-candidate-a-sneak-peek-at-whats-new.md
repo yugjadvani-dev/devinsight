@@ -17,6 +17,8 @@ image: ./images/code5.webp
 
 The highly anticipated [Next.js 15](https://nextjs.org/docs/app/building-your-application/upgrading/version-15) Release Candidate (RC) is now available, offering developers a chance to test out the latest features before the stable release. This RC comes packed with new experimental tools, significant improvements, and breaking changes that promise to enhance the development experience. Here’s an in-depth look at what’s new in [Next.js 15 RC](https://nextjs.org/docs).
 
+## Table of contents
+
 ## Key Highlights of Next.js 15 RC
 
 1. **React 19 RC Support:** [Next.js 15 RC](https://nextjs.org/docs) supports [React 19](https://react.dev/learn/react-compiler) RC, enabling developers to leverage new client and server features, such as Actions. Built on the React canary channel, this update allows early feedback on new React APIs. However, some third-party libraries may still need compatibility updates for [React 19](https://react.dev/blog/2024/04/25/react-19-upgrade-guide).
