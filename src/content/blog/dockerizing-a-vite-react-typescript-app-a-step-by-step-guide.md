@@ -6,11 +6,7 @@ slug: dockerizing-a-vite-react-typescript-app-a-step-by-step-guide
 featured: true
 draft: false
 tags:
-  - Docker Vite React
-  - Typescript Docker Guide
-  - Vite React Container
   - Dockerized React App
-  - Vite App Deployment
 description: In today’s rapidly evolving tech landscape, efficient and scalable deployment is a must for any developer. Docker offers a seamless way to package and distribute applications, ensuring consistency across environments.
 image: ./images/docker.webp
 ---
@@ -107,7 +103,7 @@ Head over to your browser and navigate to `http://localhost:3000`. If all went w
 For those managing multiple services or looking for an easier way to manage your Docker configuration, Docker Compose is a great tool. Here’s a sample `docker-compose.yml` file to get you started:
 
 ```yml
-version: '3.8'
+version: "3.8"
 services:
   web:
     build: .

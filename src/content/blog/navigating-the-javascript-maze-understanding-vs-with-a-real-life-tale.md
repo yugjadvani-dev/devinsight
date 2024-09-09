@@ -10,7 +10,6 @@ tags:
   - Webdevelopment
   - Codingtips
   - Jsoperators
-  - Programmingtutorial
 description: Once upon a time, in the bustling world of tech startups, two developers, Maya and Arjun, were tasked with building a dynamic user interface for a new product.
 image: ./images/code10.webp
 ---
@@ -28,8 +27,8 @@ One day, while working on a feature to display user preferences, Arjun used the 
 The logical OR operator (`||`) is a classic tool in JavaScript, widely used to provide default values. It works by evaluating the left-hand side of the expression, and if that value is "falsy" (i.e., values like `false`, `0`, `''`, `null`, `undefined`, or `NaN`), it returns the right-hand side.
 
 ```javascript
-let userPreference = '';
-let defaultPreference = 'dark mode';
+let userPreference = "";
+let defaultPreference = "dark mode";
 
 let theme = userPreference || defaultPreference;
 console.log(theme); // Output: "dark mode"
@@ -44,8 +43,8 @@ This works well most of the time, but it can cause unexpected behavior. Imagine 
 Enter the nullish coalescing operator (`??`). This operator, introduced in ECMAScript 2020, offers a more refined approach. It only considers `null` and `undefined` as "nullish" values and ignores other falsy values like `0` or an empty string.
 
 ```javascript
-let userPreference = '';
-let defaultPreference = 'dark mode';
+let userPreference = "";
+let defaultPreference = "dark mode";
 
 let theme = userPreference ?? defaultPreference;
 console.log(theme); // Output: ""
@@ -101,8 +100,8 @@ let safeValue = userInput ?? defaultInput; // Output: 0 (intended)
 
 ```javascript
 let config = {
-    mode: 'dark',
-    showSidebar: false
+  mode: "dark",
+  showSidebar: false,
 };
 
 let sidebarSetting = config.showSidebar || true; // Output: true (unintended)

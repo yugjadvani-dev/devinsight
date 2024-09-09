@@ -6,10 +6,9 @@ slug: mastering-video-playback-in-react-native-a-journey-through-building-a-cust
 featured: true
 draft: false
 tags:
-  - Reactnative
+  - reactnative
   - Videoplayer
   - Appdevelopment
-  - Codingtutorial
   - Mobiledevelopment
 description: In the world of app development, multimedia capabilities are not just a luxury — they’re a necessity. From social media platforms to educational apps, integrating video playback can significantly enhance user experience.
 image: ./images/video-player.webp
@@ -92,16 +91,17 @@ npm install react-native-video
 These packages will provide the essential components for our video player: a slider for progress control, an orientation locker for handling screen orientation, and the video player itself.
 
 ## Setting Up the Video Player
+
 Now, let’s dive into the code. Here’s a breakdown of the key parts of our video player:
 
 ### 1. Importing Dependencies:
 
 ```typescript
-import React from 'react';
-import Slider from '@react-native-community/slider';
-import { Image, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
-import Orientation from 'react-native-orientation-locker';
-import Video, { OnProgressData } from 'react-native-video';
+import React from "react";
+import Slider from "@react-native-community/slider";
+import { Image, StyleSheet, Text, TouchableOpacity, View } from "react-native";
+import Orientation from "react-native-orientation-locker";
+import Video, { OnProgressData } from "react-native-video";
 ```
 
 ### 2. State Management:
@@ -117,13 +117,17 @@ const [muted, setMuted] = React.useState<boolean>(true);
 ### 3. Functions:
 
 ```typescript
-const ref = React.useRef<any>(null)
+const ref = React.useRef<any>(null);
 
 const format = (seconds: number): string => {
-    let mins = Math.floor(seconds / 60).toString().padStart(2, '0')
-    let secs = Math.floor(seconds % 60).toString().padStart(2, '0')
-    return `${mins}:${secs}`
-}
+  let mins = Math.floor(seconds / 60)
+    .toString()
+    .padStart(2, "0");
+  let secs = Math.floor(seconds % 60)
+    .toString()
+    .padStart(2, "0");
+  return `${mins}:${secs}`;
+};
 ```
 
 ### 4. Video Player UI:
@@ -198,26 +202,26 @@ return (
 ```typescript
 const styles = StyleSheet.create({
   title: {
-    textAlign: 'center',
+    textAlign: "center",
     marginVertical: 8,
     fontSize: 24,
-    color: '#000000',
+    color: "#000000",
   },
   overlay: {
-    width: '100%',
-    height: '100%',
-    position: 'absolute',
-    backgroundColor: 'rgba(0,0,0,.5)',
-    justifyContent: 'center',
-    alignItems: 'center',
+    width: "100%",
+    height: "100%",
+    position: "absolute",
+    backgroundColor: "rgba(0,0,0,.5)",
+    justifyContent: "center",
+    alignItems: "center",
   },
   controlsRow: {
-    flexDirection: 'row',
+    flexDirection: "row",
   },
   controlIcon: {
     width: 30,
     height: 30,
-    tintColor: 'white',
+    tintColor: "white",
   },
   playPauseIcon: {
     marginLeft: 50,
@@ -229,39 +233,39 @@ const styles = StyleSheet.create({
     marginLeft: 50,
   },
   sliderRow: {
-    width: '100%',
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-    position: 'absolute',
+    width: "100%",
+    flexDirection: "row",
+    justifyContent: "space-between",
+    position: "absolute",
     bottom: 0,
     left: 0,
     paddingLeft: 20,
     paddingRight: 20,
-    alignItems: 'center',
+    alignItems: "center",
   },
   slider: {
-    width: '80%',
+    width: "80%",
     height: 40,
   },
   timeText: {
-    color: 'white',
+    color: "white",
   },
   fullScreenButtonRow: {
-    width: '100%',
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-    position: 'absolute',
+    width: "100%",
+    flexDirection: "row",
+    justifyContent: "space-between",
+    position: "absolute",
     top: 10,
     paddingLeft: 20,
     paddingRight: 20,
-    alignItems: 'center',
+    alignItems: "center",
   },
   fullScreenIcon: {
     width: 24,
     height: 24,
-    tintColor: 'white',
+    tintColor: "white",
   },
-})
+});
 ```
 
 ## Understanding the Code

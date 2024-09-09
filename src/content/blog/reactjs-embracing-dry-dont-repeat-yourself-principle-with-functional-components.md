@@ -6,8 +6,7 @@ slug: reactjs-embracing-dry-dont-repeat-yourself-principle-with-functional-compo
 featured: true
 draft: false
 tags:
-  - react
-  - principle
+  - reactjs
 description: React’s functional components provide an excellent platform for adhering to the DRY principle.
 image: ./images/react-logo.webp
 ---
@@ -29,7 +28,7 @@ In React, functional components are an excellent tool for implementing the DRY p
 Consider a scenario where you have multiple buttons in your application, each with a different label but similar styling. You can create a reusable `Button` component:
 
 ```javascript
-import React from 'react';
+import React from "react";
 
 const Button = ({ label, onClick }) => {
   return <button onClick={onClick}>{label}</button>;
@@ -41,12 +40,12 @@ export default Button;
 Now, you can use the `Button` component across your application with different labels and click handlers.
 
 ```javascript
-import React from 'react';
-import Button from './Button';
+import React from "react";
+import Button from "./Button";
 
 const App = () => {
   const handleClick = () => {
-    alert('Button Clicked!');
+    alert("Button Clicked!");
   };
 
   return (
@@ -65,7 +64,7 @@ export default App;
 Suppose you have a requirement to display lists with varying items. You can create a reusable `List` component:
 
 ```javascript
-import React from 'react';
+import React from "react";
 
 const List = ({ items }) => {
   return (
@@ -83,12 +82,12 @@ export default List;
 Now, you can utilize the `List` component to render different lists across your application.
 
 ```javascript
-import React from 'react';
-import List from './List';
+import React from "react";
+import List from "./List";
 
 const App = () => {
-  const fruits = ['Apple', 'Banana', 'Cherry'];
-  const colors = ['Red', 'Green', 'Blue'];
+  const fruits = ["Apple", "Banana", "Cherry"];
+  const colors = ["Red", "Green", "Blue"];
 
   return (
     <div>

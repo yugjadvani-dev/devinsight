@@ -1,6 +1,6 @@
 ---
 author: Yug Jadvani
-pubDatetime: 2024-09-04T03:22:24Z 
+pubDatetime: 2024-09-04T03:22:24Z
 title: File-Based Routes with Type-Safety and TanStack Router - A Developer’s Journey
 slug: file-based-routes-with-type-safety-and-tanstack-router-a-developers-journey
 featured: true
@@ -10,7 +10,7 @@ tags:
   - Typesaferouting
   - Tanstackrouter
   - Vitejs
-  - Reactjs
+  - reactjs
 description: Let me take you on a journey back to a time when routing in web applications felt like navigating a labyrinth.
 image: ./images/code9.webp
 ---
@@ -45,7 +45,8 @@ To harness this power, you’ll need to install the following dependencies:
 npm i @tanstack/react-router
 npm i @tanstack/router-devtools
 npm i @tanstack/router-plugin
-```
+
+````
 
 These packages are your companions on this journey, ensuring that every route you create is not only functional but also robust and type-safe.
 
@@ -68,7 +69,7 @@ export default defineConfig({
     // ...
   ],
 })
-```
+````
 
 This configuration sets the stage for file-based routing, but it’s not just about the routes — it’s about ensuring every path is type-safe, which leads us to the heart of this journey.
 
@@ -76,7 +77,7 @@ This configuration sets the stage for file-based routing, but it’s not just ab
 
 With our tools in hand, it’s time to create the structure that will guide users through our application. Start by creating a `src/routes` directory. Inside this directory, you’ll create files that define your routes.
 
-- **Root Route (__root.tsx):** This is the central hub of your application, the place where all routes converge.
+- **Root Route (\_\_root.tsx):** This is the central hub of your application, the place where all routes converge.
 
 ```typescript
 import * as React from 'react'

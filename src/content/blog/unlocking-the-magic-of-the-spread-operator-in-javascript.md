@@ -9,7 +9,7 @@ tags:
   - Js Spread Operator
   - Js Tips And Tricks
   - Coding Best Practices
-  - Web Development Tutorials
+  - Webdevelopment
   - Modern Js Techniques
 description: Imagine you’re in a relay race, and your team has been practicing tirelessly. The baton, a symbol of your collective effort, is passed seamlessly from one runner to the next.
 image: ./images/code6.webp
@@ -34,11 +34,11 @@ Then, I discovered the spread operator. It was a game-changer. My code transform
 The spread operator is often used to expand elements of an array into another array. Let’s look at a simple example:
 
 ```javascript
-const teamA = ['Alice', 'Bob', 'Charlie'];
-const teamB = ['Dave', 'Eve', 'Frank'];
+const teamA = ["Alice", "Bob", "Charlie"];
+const teamB = ["Dave", "Eve", "Frank"];
 
 const allTeams = [...teamA, ...teamB];
-console.log(allTeams); 
+console.log(allTeams);
 // Output: ['Alice', 'Bob', 'Charlie', 'Dave', 'Eve', 'Frank']
 ```
 
@@ -49,8 +49,8 @@ In this scenario, the spread operator effortlessly merges `teamA` and `teamB` in
 The spread operator can also be used to combine properties from multiple objects. For example:
 
 ```javascript
-const personalInfo = { name: 'Milan', age: 28 };
-const contactInfo = { email: 'milan@example.com', phone: '123-456-7890' };
+const personalInfo = { name: "Milan", age: 28 };
+const contactInfo = { email: "milan@example.com", phone: "123-456-7890" };
 
 const fullInfo = { ...personalInfo, ...contactInfo };
 console.log(fullInfo);
@@ -62,6 +62,7 @@ Here, `personalInfo` and `contactInfo` are merged into a single object, `fullInf
 ## Practical Applications: A Developer’s Perspective
 
 ### 1. Copying Arrays
+
 Creating a copy of an array can be done swiftly with the spread operator:
 
 ```javascript
@@ -72,6 +73,7 @@ console.log(copiedArray);
 ```
 
 ### 2. Concatenating Arrays
+
 Combining multiple arrays is straightforward:
 
 ```javascript
@@ -83,6 +85,7 @@ console.log(combinedNumbers);
 ```
 
 ### 3. Adding New Elements to Arrays
+
 You can easily add new elements to an existing array:
 
 ```javascript
@@ -93,6 +96,7 @@ console.log(newArray);
 ```
 
 ### 4. Copying Objects
+
 Making a shallow copy of an object is just as simple:
 
 ```javascript
@@ -103,6 +107,7 @@ console.log(copiedObject);
 ```
 
 ### 5. Merging Objects
+
 Combining properties from multiple objects is a breeze:
 
 ```javascript

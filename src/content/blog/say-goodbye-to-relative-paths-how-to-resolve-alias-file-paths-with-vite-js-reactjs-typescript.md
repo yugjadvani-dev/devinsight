@@ -6,7 +6,7 @@ slug: say-goodbye-to-relative-paths-how-to-resolve-alias-file-paths-with-vite-js
 featured: true
 draft: false
 tags:
-  - react
+  - reactjs
   - typescript
   - vitejs
 description: Say hello to productivity and bid farewell to relative path woes.
@@ -124,9 +124,7 @@ Add the following code to the `tsconfig.app.json` file to resolve paths, for you
     // ...
     "baseUrl": ".",
     "paths": {
-      "@/*": [
-        "./src/*"
-      ]
+      "@/*": ["./src/*"]
     }
     // ...
   }
@@ -146,9 +144,9 @@ npm i -D @types/node
 
 ```typescript
 // vite.config.ts
-import path from "path"
-import react from "@vitejs/plugin-react"
-import { defineConfig } from "vite"
+import path from "path";
+import react from "@vitejs/plugin-react";
+import { defineConfig } from "vite";
 
 export default defineConfig({
   plugins: [react()],
@@ -157,7 +155,7 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
     },
   },
-})
+});
 ```
 
 ## Conclusion:
@@ -175,6 +173,6 @@ import FetchUseQuery from "@/useEffectVSuseQuery/FetchUseQuery";
 
 Now, armed with this newfound knowledge, you’re ready to take your development journey to new heights. Say hello to productivity and bid farewell to relative path woes.
 
---- 
+---
 
 > Enjoyed the read? If you found this article insightful or helpful, consider supporting my work by buying me a coffee. Your contribution helps fuel more content like this. [Click here](https://buymeacoffee.com/yugjadvani9) to treat me to a virtual coffee. Cheers!

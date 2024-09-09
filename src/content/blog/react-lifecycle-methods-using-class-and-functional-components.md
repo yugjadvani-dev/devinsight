@@ -6,7 +6,7 @@ slug: react-lifecycle-methods-using-class-and-functional-components
 featured: true
 draft: false
 tags:
-  - Reactjs
+  - reactjs
   - Lifecycle Methods
   - Functional Component
   - Class Component
@@ -80,7 +80,7 @@ class ExampleComponent extends React.Component {
   }
 
   componentDidMount() {
-    console.log('Component mounted');
+    console.log("Component mounted");
   }
 
   shouldComponentUpdate(nextProps, nextState) {
@@ -88,11 +88,11 @@ class ExampleComponent extends React.Component {
   }
 
   componentDidUpdate(prevProps, prevState) {
-    console.log('Component updated');
+    console.log("Component updated");
   }
 
   componentWillUnmount() {
-    console.log('Component will unmount');
+    console.log("Component will unmount");
   }
 
   render() {
@@ -112,12 +112,12 @@ function ExampleComponent() {
   const [count, setCount] = React.useState(0);
 
   React.useEffect(() => {
-    console.log('Component mounted');
-    return () => console.log('Component will unmount');
+    console.log("Component mounted");
+    return () => console.log("Component will unmount");
   }, []);
 
   React.useEffect(() => {
-    console.log('Component updated');
+    console.log("Component updated");
   }, [count]);
 
   return (

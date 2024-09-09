@@ -9,7 +9,7 @@ tags:
   - JavaScript
   - Coding
   - Webdevelopment
-  - Javascripttips
+  - js-tips-and-tricks
   - Es6features
 description: Imagine you’re at a bustling relay race event. The air is filled with excitement as teams prepare for the big race.
 image: ./images/code8.webp
@@ -29,7 +29,7 @@ The rest operator is represented by three dots (`...`) followed by a parameter n
 
 ```javascript
 function sumAll(...numbers) {
-    return numbers.reduce((acc, curr) => acc + curr, 0);
+  return numbers.reduce((acc, curr) => acc + curr, 0);
 }
 
 console.log(sumAll(1, 2, 3, 4)); // Output: 10
@@ -44,10 +44,10 @@ Let me share a real story from my early days as a front-end developer. I was wor
 
 ```javascript
 function logActivities(activity1, activity2, activity3) {
-    console.log(activity1);
-    if (activity2) console.log(activity2);
-    if (activity3) console.log(activity3);
-    // and so on...
+  console.log(activity1);
+  if (activity2) console.log(activity2);
+  if (activity3) console.log(activity3);
+  // and so on...
 }
 ```
 
@@ -55,10 +55,10 @@ This approach was not scalable and looked ugly. Then, I remembered the rest oper
 
 ```javascript
 function logActivities(...activities) {
-    activities.forEach(activity => console.log(activity));
+  activities.forEach(activity => console.log(activity));
 }
 
-logActivities('Login', 'Viewed Profile', 'Logged Out');
+logActivities("Login", "Viewed Profile", "Logged Out");
 // Output:
 // Login
 // Viewed Profile
@@ -73,11 +73,11 @@ One of the powerful features of the rest operator is its ability to combine with
 
 ```javascript
 function introduce(firstName, lastName, ...hobbies) {
-    console.log(`Hi, I'm ${firstName} ${lastName}.`);
-    console.log(`My hobbies are: ${hobbies.join(', ')}`);
+  console.log(`Hi, I'm ${firstName} ${lastName}.`);
+  console.log(`My hobbies are: ${hobbies.join(", ")}`);
 }
 
-introduce('Yug', 'Jadvani', 'coding', 'blogging', 'traveling');
+introduce("Yug", "Jadvani", "coding", "blogging", "traveling");
 // Output:
 // Hi, I'm Yug Jadvani.
 // My hobbies are: coding, blogging, traveling
@@ -101,6 +101,7 @@ function example(...args, lastArg) {}
 3. **Compatibility Check:** Ensure that your target environment supports ES6 features. Most modern environments do, but it’s always good to check.
 
 ## Conclusion: Embracing the Rest Operator
+
 The rest of the operator in JavaScript is like the magical baton in our relay race story. It provides flexibility, efficiency, and simplicity in handling functions with varying arguments. As developers, mastering this tool can significantly enhance our code quality and productivity.
 
 So, the next time you find yourself dealing with a function that needs to handle multiple arguments, remember the rest of the operator. Embrace its versatility and let it simplify your coding adventures, just like it did for me.

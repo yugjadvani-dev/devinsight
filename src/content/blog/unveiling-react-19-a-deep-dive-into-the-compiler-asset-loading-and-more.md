@@ -6,7 +6,7 @@ slug: unveiling-react-19-a-deep-dive-into-the-compiler-asset-loading-and-more
 featured: true
 draft: false
 tags:
-  - react
+  - reactjs
   - react-19
 description: Remember that React 19 is a major release, and some features (like Asset Loading and Document Metadata) may be breaking changes for existing apps.
 image: ./images/code2.webp
@@ -26,7 +26,7 @@ image: ./images/code2.webp
     "baseUrl": "src",
     "outDir": "./dist",
     "module": "commonjs",
-    "target": "es6",
+    "target": "es6"
     // other options...
   },
   "include": ["src"]
@@ -37,10 +37,10 @@ With `baseUrl` set to “src”, importing modules becomes more concise:
 
 ```javascript
 // Without baseUrl
-import { MyModule } from '../../../src/components';
+import { MyModule } from "../../../src/components";
 
 // With baseUrl
-import { MyModule } from 'components';
+import { MyModule } from "components";
 ```
 
 **Benefits:**

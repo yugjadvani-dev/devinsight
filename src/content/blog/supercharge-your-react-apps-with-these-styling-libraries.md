@@ -6,7 +6,7 @@ slug: supercharge-your-react-apps-with-these-styling-libraries
 featured: true
 draft: false
 tags:
-  - react
+  - reactjs
   - styling libraries
 description: Whether you’re building a React, Vite, or Next.js app, these libraries have got you covered.
 image: ./images/libraries.webp
@@ -153,14 +153,12 @@ npx tailwindcss init
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [
-    "./src/**/*.{js,jsx,ts,tsx}",
-  ],
+  content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {},
   },
   plugins: [],
-}
+};
 ```
 
 - **Link:** [Tailwind CSS](https://tailwindcss.com/)

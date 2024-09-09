@@ -9,7 +9,7 @@ tags:
   - Webdevelopment
   - Codingtips
   - Reacttutorial
-  - Reactjs
+  - reactjs
   - Components
 description: In React, one of the common challenges developers face is communication between parent and child components.
 image: ./images/parent-child.webp

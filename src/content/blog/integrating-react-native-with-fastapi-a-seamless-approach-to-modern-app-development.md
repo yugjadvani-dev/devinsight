@@ -6,7 +6,7 @@ slug: integrating-react-native-with-fastapi-a-seamless-approach-to-modern-app-de
 featured: true
 draft: false
 tags:
-  - React Native
+  - reactnative
   - Fastapi
   - Mobileappdevelopment
   - Crossplatformdevelopment

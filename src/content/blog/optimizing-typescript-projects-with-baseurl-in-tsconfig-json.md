@@ -6,7 +6,7 @@ slug: optimizing-typescript-projects-with-baseurl-in-tsconfig-json
 featured: true
 draft: false
 tags:
-  - react
+  - reactjs
   - typescript
 description: Configuring the baseUrl in the tsconfig.json file is a small adjustment with significant benefits.
 image: ./images/code1.webp
@@ -26,7 +26,7 @@ Use: The primary use of `baseUrl` is to simplify imports. When set, TypeScript u
     "baseUrl": "src",
     "outDir": "./dist",
     "module": "commonjs",
-    "target": "es6",
+    "target": "es6"
     // other options...
   },
   "include": ["src"]
@@ -37,10 +37,10 @@ With `baseUrl` set to “src”, importing modules becomes more concise:
 
 ```javascript
 // Without baseUrl
-import { MyModule } from '../../../src/components';
+import { MyModule } from "../../../src/components";
 
 // With baseUrl
-import { MyModule } from 'components';
+import { MyModule } from "components";
 ```
 
 **Benefits:**

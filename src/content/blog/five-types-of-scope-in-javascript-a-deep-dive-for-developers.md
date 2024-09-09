@@ -8,9 +8,7 @@ draft: false
 tags:
   - JavaScript
   - Fullstack Development
-  - Codingbestpractices
-  - Web Development
-  - Tech Insights
+  - Webdevelopment
 description: JavaScript’s behavior with variables is governed by its scope. Understanding scope is fundamental for writing robust, maintainable code.
 image: ./images/js.webp
 ---

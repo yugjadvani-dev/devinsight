@@ -7,10 +7,6 @@ featured: true
 draft: false
 tags:
   - Handling Apis With Python
-  - Python Requests Library
-  - Python Api Integration
-  - Beginners Guide
-  - Python Apis
 description: Handling APIs in Python is an essential skill for modern developers.
 image: ./images/python.webp
 ---
@@ -26,24 +22,29 @@ APIs enable software applications to communicate with each other, allowing devel
 ## Key Points
 
 1. Understanding APIs:
+
 - What is an API?
 - How do APIs work?
 - Types of APIs (REST, SOAP, GraphQL)
 
 2. Python Libraries for API Interaction:
+
 - Requests library
 - JSON module
 
 3. Making API Requests:
+
 - GET requests
 - POST requests
 - Handling response data
 
 4. Error Handling in API Requests:
+
 - Status codes
 - Common errors and how to handle them
 
 5. Example: Fetching Data from an API:
+
 - Step-by-step explanation
 - Code walkthrough
 
@@ -170,18 +171,22 @@ if __name__ == '__main__':
 ## Explanation of the Code
 
 1. Importing the Requests Library:
+
 - The `requests` library is imported to make HTTP requests.
 
 2. Defining the Fetch Function:
+
 - The `fetch_random_user_freeapi` function sends a GET request to the specified URL.
 - The response is parsed to JSON.
 - It checks if the response indicates success and extracts user information.
 
 3. Handling Data:
+
 - If the response contains the expected data, it extracts the username and country.
 - If not, it raises an exception.
 
 4. Main Function:
+
 - The `main` function calls the fetch function and prints the user details.
 - Errors are caught and printed.
 

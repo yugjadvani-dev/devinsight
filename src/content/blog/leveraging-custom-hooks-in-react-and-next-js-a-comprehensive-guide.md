@@ -6,7 +6,7 @@ slug: leveraging-custom-hooks-in-react-and-next-js-a-comprehensive-guide
 featured: true
 draft: false
 tags:
-  - react
+  - reactjs
   - hooks
 description: By using this custom hook, you can easily persist state across page reloads or even across different sessions, enhancing the user experience in your React and Next.js applications.
 image: ./images/hooks.webp
@@ -63,7 +63,7 @@ image: ./images/hooks.webp
 Here’s an example of a custom hook called `useLocalStorage` that allows you to persist state to the browser's local storage in React and Next.js:
 
 ```javascript
-import { useState, useEffect } from 'react';
+import { useState, useEffect } from "react";
 
 // Custom hook to save state to local storage
 function useLocalStorage(key, initialValue) {
@@ -91,27 +91,27 @@ How to use the `useLocalStorage` hook:
 1. Import the hook:
 
 ```javascript
-import useLocalStorage from './useLocalStorage';
+import useLocalStorage from "./useLocalStorage";
 ```
 
 2. Using the hook in a component:
 
 ```javascript
-import React from 'react';
+import React from "react";
 
 function ExampleComponent() {
   // Usage of the useLocalStorage hook
-  const [name, setName] = useLocalStorage('username', '');
+  const [name, setName] = useLocalStorage("username", "");
 
   return (
     <div>
       <input
         type="text"
         value={name}
-        onChange={(e) => setName(e.target.value)}
+        onChange={e => setName(e.target.value)}
         placeholder="Enter your name"
       />
-      <p>Hello, {name || 'stranger'}!</p>
+      <p>Hello, {name || "stranger"}!</p>
     </div>
   );
 }

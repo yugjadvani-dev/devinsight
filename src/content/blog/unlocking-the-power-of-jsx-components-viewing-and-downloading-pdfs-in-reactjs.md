@@ -6,7 +6,7 @@ slug: unlocking-the-power-of-jsx-components-viewing-and-downloading-pdfs-in-reac
 featured: true
 draft: false
 tags:
-  - react
+  - reactjs
 description: As we draw the curtains on this journey, I extend my sincerest gratitude to you, dear reader, for accompanying us through the corridors of JSX component magic.
 image: ./images/code3.webp
 ---
@@ -36,20 +36,20 @@ Ensuring the presence of React and react-dom alongside react-pdf is vital for se
 Now, let’s delve into the creative process of crafting your PDF masterpiece. React-pdf equips developers with a set of intuitive React primitives, simplifying the rendering of content within PDF documents. Let’s bring your PDF to life with a glimpse into the code:
 
 ```javascript
-import React from 'react';
-import { Page, Text, View, Document, StyleSheet } from '@react-pdf/renderer';
+import React from "react";
+import { Page, Text, View, Document, StyleSheet } from "@react-pdf/renderer";
 
 // Define styles
 const styles = StyleSheet.create({
   page: {
-    flexDirection: 'row',
-    backgroundColor: '#E4E4E4'
+    flexDirection: "row",
+    backgroundColor: "#E4E4E4",
   },
   section: {
     margin: 10,
     padding: 10,
-    flexGrow: 1
-  }
+    flexGrow: 1,
+  },
 });
 
 // Create Document Component
@@ -78,9 +78,9 @@ With your PDF document meticulously crafted, it’s time to decide its stage for
 Incorporating your PDF into a web environment is a seamless affair. Utilizing the PDFViewer component, the document elegantly finds its place within your React application:
 
 ```javascript
-import React from 'react';
-import ReactDOM from 'react-dom';
-import { PDFViewer } from '@react-pdf/renderer';
+import React from "react";
+import ReactDOM from "react-dom";
+import { PDFViewer } from "@react-pdf/renderer";
 
 const App = () => (
   <PDFViewer>
@@ -94,12 +94,14 @@ const App = () => (
 The cherry on top of the PDF-generating cake is the ability to offer users the option to download their newfound treasure. Enter the PDFDownloadLink component, delivering a delightful user experience:
 
 ```javascript
-import React from 'react';
-import { PDFDownloadLink } from '@react-pdf/renderer';
+import React from "react";
+import { PDFDownloadLink } from "@react-pdf/renderer";
 
 const DownloadButton = () => (
   <PDFDownloadLink document={<MyDocument />} fileName="PDFRenderer.pdf">
-    {({ blob, url, loading, error }) => (loading ? "Loading document..." : "Download PDF")}
+    {({ blob, url, loading, error }) =>
+      loading ? "Loading document..." : "Download PDF"
+    }
   </PDFDownloadLink>
 );
 ```

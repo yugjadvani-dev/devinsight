@@ -7,10 +7,8 @@ featured: true
 draft: false
 tags:
   - Javascriptdestructuring
-  - Codeoptimization
   - Webdevelopment
   - Clean Code
-  - Learn Javascript
 description: Imagine you’re a detective walking into a room filled with piles of papers, each with clues scattered across the floor.
 image: ./images/code7.webp
 ---
@@ -38,7 +36,7 @@ Divyesh explains, “Destructuring allows you to extract values from arrays or o
 Divyesh opens his laptop and starts demonstrating with an array example:
 
 ```javascript
-const coffeeTypes = ['Espresso', 'Americano', 'Cappuccino', 'Latte'];
+const coffeeTypes = ["Espresso", "Americano", "Cappuccino", "Latte"];
 
 // Before destructuring
 const first = coffeeTypes[0];
@@ -59,10 +57,10 @@ Divyesh then shows her how destructuring works with objects:
 
 ```javascript
 const coffee = {
-  name: 'Latte',
-  size: 'Medium',
+  name: "Latte",
+  size: "Medium",
   price: 4.5,
-  ingredients: ['Milk', 'Espresso', 'Foam']
+  ingredients: ["Milk", "Espresso", "Foam"],
 };
 
 // Before destructuring
@@ -85,16 +83,16 @@ Divyesh isn’t done yet. He explains how destructuring can even handle nested o
 ```javascript
 const customer = {
   id: 1,
-  name: 'John Doe',
+  name: "John Doe",
   orders: [
-    { id: 101, item: 'Espresso', price: 3 },
-    { id: 102, item: 'Latte', price: 4.5 }
-  ]
+    { id: 101, item: "Espresso", price: 3 },
+    { id: 102, item: "Latte", price: 4.5 },
+  ],
 };
 
 const {
   name: customerName,
-  orders: [ , { item: secondOrderItem } ]
+  orders: [, { item: secondOrderItem }],
 } = customer;
 
 console.log(customerName); // John Doe

@@ -6,11 +6,9 @@ slug: a-step-by-step-guide-to-building-and-publishing-your-react-native-app-on-g
 featured: true
 draft: false
 tags:
-  - Reactnativedevelopment
+  - reactnative
   - Googleplaystorepublishing
-  - Mobileappdeployment
   - Apkbuilding
-  - Appdevelopmentjourney
 description: As you embark on your next adventure in app development, know that we’re cheering you on every step of the way.
 image: ./images/android.webp
 ---

@@ -6,7 +6,7 @@ slug: navigating-through-react-applications-a-step-by-step-guide-to-react-router
 featured: true
 draft: false
 tags:
-  - react
+  - reactjs
   - react-router
 description: React Router simplifies navigation and state management in React applications, making it easier to create dynamic and interactive user interfaces.
 image: ./images/react-router.webp
@@ -39,7 +39,7 @@ npm install react-router-dom
 Once you have React Router installed, you can start defining routes in your application. In your main component (often `App.js`), import `BrowserRouter` and `Route` from `react-router-dom`.
 
 ```typescript
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 ```
 
 Wrap your application with the `Router` component. Inside the `Router`, define your routes using the `Route` component.
