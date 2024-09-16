@@ -1,8 +1,8 @@
 ---
 author: Yug Jadvani
 pubDatetime: 2024-09-04T03:22:24Z
-title: Five Types of Scope in JavaScript - A Deep Dive for Developers
-slug: five-types-of-scope-in-javascript-a-deep-dive-for-developers
+title: Six Types of Scope in JavaScript - A Deep Dive for Developers
+slug: six-types-of-scope-in-javascript-a-deep-dive-for-developers
 featured: false
 draft: false
 tags:
@@ -13,7 +13,7 @@ description: JavaScript’s behavior with variables is governed by its scope. Un
 image: ./images/js.webp
 ---
 
-JavaScript’s behavior with variables is governed by its scope. Understanding scope is fundamental for writing robust, maintainable code. This article will explore the five main types of scope in JavaScript — Global, Local, Block, Function Scope (and Closures), and Scope Chain. By the end, you’ll have a clear grasp of how JavaScript handles variables across different contexts.
+JavaScript’s behavior with variables is governed by its scope. Understanding scope is fundamental for writing robust, maintainable code. This article will explore the five main types of scope in JavaScript — Global, Local, Block, Function Scope (and Closures), Scope Chain and Module Scope. By the end, you’ll have a clear grasp of how JavaScript handles variables across different contexts.
 
 ## Table of contents
 
@@ -151,11 +151,38 @@ The scope chain helps in resolving variables in nested functions or blocks. It m
 
 ---
 
+## 6. Module Scope
+
+### Explanation:
+
+With the introduction of ES6 modules, JavaScript provides module scope. Any variable, function, or class declared inside a module is scoped to that module, meaning it is private by default and cannot be accessed by code outside the module unless explicitly exported. Modules help to avoid polluting the global scope and promote better code organization.
+
+### Example:
+
+```javascript
+// myModule.js
+const moduleVar = "I am module-scoped";
+
+export function getModuleVar() {
+  return moduleVar;
+}
+
+// main.js
+import { getModuleVar } from './myModule.js';
+
+console.log(getModuleVar()); // Outputs: I am module-scoped
+console.log(moduleVar); // Error: moduleVar is not defined in this scope
+```
+
+### Important Consideration:
+
+Module scope supports encapsulation, encouraging modular, reusable, and maintainable code by restricting access to internal details of the module.
+
+---
+
 ## Conclusion
 
-Understanding the various types of scope in JavaScript — global, local, block, closures/function scope, and scope chain — empowers you to write cleaner, more efficient code. By carefully managing how variables are declared and accessed, you can avoid unintended behaviors, particularly in larger, more complex applications.
-
-Mastering scope is a key aspect of becoming an advanced JavaScript developer, ensuring that your code behaves as expected, regardless of its complexity.
+Incorporating Module Scope alongside Global, Local, Block, Function/Closures, and Scope Chain broadens the way JavaScript developers can structure code. By leveraging these six types of scope, you can create modular, secure, and high-performance applications, avoid namespace pollution, and prevent unexpected variable access.
 
 ---
 
