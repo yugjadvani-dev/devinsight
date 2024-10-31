@@ -165,7 +165,7 @@ module.exports = {
 
 ---
 
-- 9. Chakra UI
+## 9. Chakra UI
 
 Chakra UI is a component library that provides a set of accessible and customizable components for React.
 
@@ -241,7 +241,7 @@ export function cn(...inputs: ClassValue[]) {
 }
 ```
 
-## Install components
+### Install components
 
 That’s it! Now you can go to any [component](https://magicui.design/docs/components/marquee) page and follow the instructions there
 
@@ -255,7 +255,7 @@ You only need to copy + paste the components you need! No bloat or third-party d
 
 [Aeternity UI](https://ui.aceternity.com/) is a comprehensive user interface toolkit designed to streamline the development of decentralized applications (dApps) on the Aeternity blockchain. It offers a range of pre-built components and tools that allow developers to create intuitive and responsive interfaces with ease. By leveraging Aeternity UI, developers can focus more on functionality and less on the intricacies of UI design, making it an essential resource for both new and experienced blockchain developers.
 
-## Install Next.js
+### Install Next.js
 
 Install Next.js with the Create Next App
 
@@ -285,7 +285,7 @@ cd my-app
 npm run dev
 ```
 
-## Install Tailwind CSS
+### Install Tailwind CSS
 
 Install Tailwind CSS with Next.js
 
@@ -348,7 +348,7 @@ export default function Home() {
 }
 ```
 
-## Add Utilities
+### Add Utilities
 
 Commonly used utilities for using Aceternity UI
 
@@ -412,7 +412,7 @@ function addVariablesForColors({ addBase, theme }: any) {
 
 ---
 
-## 4. Headless UI — Unstyled, fully accessible UI components
+## 14. Headless UI — Unstyled, fully accessible UI components
 
 Completely unstyled, fully accessible UI components, designed to integrate beautifully with Tailwind CSS.
 
