@@ -3,7 +3,7 @@ author: Yug Jadvani
 pubDatetime: 2024-08-31T21:06:49Z
 title: React Embracing DRY (Don’t Repeat Yourself) Principle with Functional Components
 slug: reactjs-embracing-dry-dont-repeat-yourself-principle-with-functional-components
-featured: true
+featured: false
 draft: false
 tags:
   - reactjs

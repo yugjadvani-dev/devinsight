@@ -3,7 +3,7 @@ author: Yug Jadvani
 pubDatetime: 2024-08-31T21:06:49Z
 title: A Step-by-Step Guide to Building and Publishing Your React Native App on Google Play Store
 slug: a-step-by-step-guide-to-building-and-publishing-your-react-native-app-on-google-play-store
-featured: true
+featured: false
 draft: false
 tags:
   - reactnative

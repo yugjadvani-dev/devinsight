@@ -3,7 +3,7 @@ author: Yug Jadvani
 pubDatetime: 2024-09-04T03:22:24Z
 title: Mastering Video Playback in React Native - A Journey Through Building a Custom Video Player
 slug: mastering-video-playback-in-react-native-a-journey-through-building-a-custom-video-player
-featured: true
+featured: false
 draft: false
 tags:
   - reactnative

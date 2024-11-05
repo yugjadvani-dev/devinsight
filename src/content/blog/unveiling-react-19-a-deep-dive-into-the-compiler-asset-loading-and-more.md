@@ -3,11 +3,11 @@ author: Yug Jadvani
 pubDatetime: 2024-08-31T22:46:09Z
 title: Unveiling React 19 A Deep Dive into the Compiler, Asset Loading, and More!
 slug: unveiling-react-19-a-deep-dive-into-the-compiler-asset-loading-and-more
-featured: true
+featured: false
 draft: false
 tags:
   - reactjs
-  - react-19
+  - React19
 description: Remember that React 19 is a major release, and some features (like Asset Loading and Document Metadata) may be breaking changes for existing apps.
 image: ./images/code2.webp
 ---

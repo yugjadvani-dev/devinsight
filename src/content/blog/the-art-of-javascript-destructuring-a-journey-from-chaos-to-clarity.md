@@ -3,7 +3,7 @@ author: Yug Jadvani
 pubDatetime: 2024-08-31T21:06:49Z
 title: The Art of JavaScript Destructuring - A Journey from Chaos to Clarity
 slug: the-art-of-javascript-destructuring-a-journey-from-chaos-to-clarity
-featured: true
+featured: false
 draft: false
 tags:
   - Javascriptdestructuring

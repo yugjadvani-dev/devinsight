@@ -3,7 +3,7 @@ author: Yug Jadvani
 pubDatetime: 2024-08-31T21:06:49Z
 title: Demystifying Artificial Intelligence A Comprehensive Introduction to the Basics
 slug: demystifying-artificial-intelligence-a-comprehensive-introduction-to-the-basics
-featured: true
+featured: false
 draft: false
 tags:
   - ai

@@ -3,17 +3,20 @@ author: Yug Jadvani
 pubDatetime: 2024-08-31T21:06:49Z
 title: Devin AI - Unmasking the Illusion of the First AI Software Engineer 🤖🔍👨‍💻
 slug: devin-ai-unmasking-the-illusion-of-the-first-ai-software-engineer
-featured: true
+featured: false
 draft: false
 tags:
   - ai
 description: fellow code whisperer, whether you’re building skyscrapers of software or crafting microservices in solitude, remember you’re not alone.
 image: ./images/devin-ai.webp
 ---
-virtual-environments 
+
+virtual-environments
+
 ## Table of contents
 
 ## The Hype and the Reality
+
 Cognition Labs, the creators of Devin AI, made audacious claims. They positioned Devin as a groundbreaking force, capable of automating complex software engineering tasks. Scott Wu, the CEO, boldly asserted that Devin could operate on par with human software engineers. The promise? Revolutionize the industry and potentially replace skilled human workers.
 
 However, recent events have cast a shadow over these lofty claims. Enter ‘Internet of Bugs,’ a channel that meticulously dissected Devin’s performance. The video analysis revealed a stark contrast between Devin’s advertised capabilities and its real-world execution.
@@ -63,9 +66,11 @@ Bugs? Errors? They’re stepping stones, not stumbling blocks. Each glitch is a 
 Connect with fellow devs. Share knowledge, collaborate, and lift each other up. We’re all part of this cosmic codebase.
 
 ## Celebrate Small Wins:
+
 That elegant function? The bug squashed at 3 AM? Celebrate them! Progress isn’t always grand; sometimes it’s a line of clean code.
 
 ## Read, Write, Repeat:
+
 Dive into documentation. Write blog posts. Teach others. Knowledge compounds when shared.
 
 And now, the quote that echoes through the compiler’s corridors:

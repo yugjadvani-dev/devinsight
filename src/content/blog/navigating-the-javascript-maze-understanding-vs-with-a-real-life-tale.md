@@ -3,12 +3,11 @@ author: Yug Jadvani
 pubDatetime: 2024-09-04T03:22:24Z
 title: Navigating the JavaScript Maze - Understanding ?? vs || with a Real-Life Tale
 slug: navigating-the-javascript-maze-understanding-vs-with-a-real-life-tale
-featured: true
+featured: false
 draft: false
 tags:
   - JavaScript
   - Webdevelopment
-  - Codingtips
   - Jsoperators
 description: Once upon a time, in the bustling world of tech startups, two developers, Maya and Arjun, were tasked with building a dynamic user interface for a new product.
 image: ./images/code10.webp

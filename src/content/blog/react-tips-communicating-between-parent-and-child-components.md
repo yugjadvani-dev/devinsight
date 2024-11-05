@@ -3,12 +3,10 @@ author: Yug Jadvani
 pubDatetime: 2024-09-03T03:08:50Z
 title: React Tips - Communicating Between Parent and Child Components
 slug: react-tips-communicating-between-parent-and-child-components
-featured: true
+featured: false
 draft: false
 tags:
   - Webdevelopment
-  - Codingtips
-  - Reacttutorial
   - reactjs
   - Components
 description: In React, one of the common challenges developers face is communication between parent and child components.

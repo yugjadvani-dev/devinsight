@@ -3,7 +3,7 @@ author: Yug Jadvani
 pubDatetime: 2024-09-04T03:22:24Z
 title: Integrating React Native with FastAPI - A Seamless Approach to Modern App Development
 slug: integrating-react-native-with-fastapi-a-seamless-approach-to-modern-app-development
-featured: true
+featured: false
 draft: false
 tags:
   - reactnative

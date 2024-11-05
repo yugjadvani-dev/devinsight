@@ -42,4 +42,4 @@ DevInsight offers a range of features designed to enhance the user experience:
 
 ## Get Involved
 
-If you find DevInsight useful, feel free to contribute or provide feedback. You can reach out via [email](mailto:yugjadvani@gmail.com) or explore the [repository](https://github.com/yugjadvani-dev/) on GitHub.
+If you find DevInsight useful, feel free to contribute or provide feedback. You can reach out via [email](mailto:yugjadvani@gmail.com) or explore the [repository](https://github.com/yugjadvani-dev/devinsight) on GitHub.

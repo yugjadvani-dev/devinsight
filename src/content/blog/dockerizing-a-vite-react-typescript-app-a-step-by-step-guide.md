@@ -3,7 +3,7 @@ author: Yug Jadvani
 pubDatetime: 2024-08-31T21:06:49Z
 title: Dockerizing a Vite + React + TypeScript App - A Step-by-Step Guide
 slug: dockerizing-a-vite-react-typescript-app-a-step-by-step-guide
-featured: true
+featured: false
 draft: false
 tags:
   - Dockerized React App

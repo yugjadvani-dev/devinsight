@@ -3,7 +3,7 @@ author: Yug Jadvani
 pubDatetime: 2024-09-04T03:22:24Z
 title: File-Based Routes with Type-Safety and TanStack Router - A Developer’s Journey
 slug: file-based-routes-with-type-safety-and-tanstack-router-a-developers-journey
-featured: true
+featured: false
 draft: false
 tags:
   - Webdevelopment

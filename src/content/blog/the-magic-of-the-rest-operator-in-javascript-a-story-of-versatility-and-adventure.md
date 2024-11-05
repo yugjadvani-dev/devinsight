@@ -3,11 +3,10 @@ author: Yug Jadvani
 pubDatetime: 2024-08-31T21:06:49Z
 title: The Magic of the Rest Operator in JavaScript - A Story of Versatility and Adventure
 slug: the-magic-of-the-rest-operator-in-javascript-a-story-of-versatility-and-adventure
-featured: true
+featured: false
 draft: false
 tags:
   - JavaScript
-  - Coding
   - Webdevelopment
   - js-tips-and-tricks
   - Es6features

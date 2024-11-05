@@ -3,7 +3,7 @@ author: Yug Jadvani
 pubDatetime: 2024-08-31T21:06:49Z
 title: The Magic of Proportions - Exploring the aspect-ratio in CSS
 slug: the-magic-of-proportions-exploring-the-aspect-ratio-in-css
-featured: true
+featured: false
 draft: false
 tags:
   - Cssaspectratio

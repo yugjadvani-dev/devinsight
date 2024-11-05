@@ -3,7 +3,7 @@ author: Yug Jadvani
 pubDatetime: 2024-08-31T21:06:49Z
 title: Handling APIs in Python A Beginner’s Guide
 slug: handling-apis-in-python-a-beginners-guide
-featured: true
+featured: false
 draft: false
 tags:
   - Handling Apis With Python

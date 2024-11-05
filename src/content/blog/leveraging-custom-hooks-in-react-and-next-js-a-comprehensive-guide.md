@@ -3,7 +3,7 @@ author: Yug Jadvani
 pubDatetime: 2024-08-31T22:46:09Z
 title: Leveraging Custom Hooks in React and Next.js A Comprehensive Guide
 slug: leveraging-custom-hooks-in-react-and-next-js-a-comprehensive-guide
-featured: true
+featured: false
 draft: false
 tags:
   - reactjs

@@ -3,14 +3,12 @@ author: Yug Jadvani
 pubDatetime: 2024-09-03T03:08:50Z
 title: Simplifying Python Development - A Comprehensive Guide to Virtual Environments
 slug: simplifying-python-development-a-comprehensive-guide-to-virtual-environments
-featured: true
+featured: false
 draft: false
 tags:
   - Python Virtual Env
-  - Virtualenv Guide
   - Python Development Tips
   - Manage Dependencies
-  - Python Venv Tutorial
 description: Managing dependencies in Python projects can be challenging, especially when working on multiple projects with different requirements.
 image: ./images/virtual-environments.webp
 ---

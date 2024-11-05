@@ -3,7 +3,7 @@ author: Yug Jadvani
 pubDatetime: 2024-09-04T03:22:24Z
 title: React Lifecycle Methods Using Class and Functional Components (Frontend Interview Experience)
 slug: react-lifecycle-methods-using-class-and-functional-components
-featured: true
+featured: false
 draft: false
 tags:
   - reactjs

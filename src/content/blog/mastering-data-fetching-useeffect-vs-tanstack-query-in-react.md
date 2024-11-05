@@ -3,7 +3,7 @@ author: Yug Jadvani
 pubDatetime: 2024-08-31T22:46:09Z
 title: Mastering Data Fetching useEffect vs. TanStack Query in React
 slug: mastering-data-fetching-useeffect-vs-tanstack-query-in-react
-featured: true
+featured: false
 draft: false
 tags:
   - React Query

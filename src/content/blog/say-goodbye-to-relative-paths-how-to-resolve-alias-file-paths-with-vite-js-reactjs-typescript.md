@@ -3,7 +3,7 @@ author: Yug Jadvani
 pubDatetime: 2024-08-31T21:06:49Z
 title: Say Goodbye to Relative Paths - How to Resolve Alias File Paths with Vite.js & ReactJS + TypeScript
 slug: say-goodbye-to-relative-paths-how-to-resolve-alias-file-paths-with-vite-js-reactjs-typescript
-featured: true
+featured: false
 draft: false
 tags:
   - reactjs

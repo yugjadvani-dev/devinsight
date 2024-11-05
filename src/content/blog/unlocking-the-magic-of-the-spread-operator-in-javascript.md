@@ -3,14 +3,14 @@ author: Yug Jadvani
 pubDatetime: 2024-08-31T21:06:49Z
 title: Unlocking the Magic of the Spread Operator in JavaScript
 slug: unlocking-the-magic-of-the-spread-operator-in-javascript
-featured: true
+featured: false
 draft: false
 tags:
   - Js Spread Operator
   - Js Tips And Tricks
-  - Coding Best Practices
   - Webdevelopment
   - Modern Js Techniques
+  - javascript
 description: Imagine you’re in a relay race, and your team has been practicing tirelessly. The baton, a symbol of your collective effort, is passed seamlessly from one runner to the next.
 image: ./images/code6.webp
 ---

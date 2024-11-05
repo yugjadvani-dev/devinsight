@@ -6,7 +6,7 @@ slug: optimal-strategies-for-storing-images-in-react-applications-best-practices
 featured: false
 draft: false
 tags:
-  - ReactJS
+  - reactjs
   - PerformanceOptimization
   - Webdevelopment
 description: Storing and handling images in React applications is a fundamental yet often overlooked aspect of development.
@@ -39,8 +39,8 @@ When storing images in the `src` folder, you import them directly into your Reac
 ## Example:
 
 ```tsx
-import React from 'react';
-import logo from './assets/logo.png';
+import React from "react";
+import logo from "./assets/logo.png";
 
 const Header: React.FC = () => {
   return (
@@ -80,7 +80,10 @@ The `public` folder in React is accessible directly by URL and bypasses the Webp
 const HomePage: React.FC = () => {
   return (
     <div>
-      <img src={`${process.env.PUBLIC_URL}/images/hero-banner.png`} alt="Hero Banner" />
+      <img
+        src={`${process.env.PUBLIC_URL}/images/hero-banner.png`}
+        alt="Hero Banner"
+      />
     </div>
   );
 };
@@ -119,7 +122,10 @@ Hosting images on an external server, CDN, or cloud storage like AWS S3 or Cloud
 const Profile: React.FC = () => {
   return (
     <div>
-      <img src="https://cdn.example.com/profiles/user123.jpg" alt="User Profile" />
+      <img
+        src="https://cdn.example.com/profiles/user123.jpg"
+        alt="User Profile"
+      />
     </div>
   );
 };
@@ -152,11 +158,9 @@ In certain situations, it’s useful to convert images to Base64 format and embe
 
 ```tsx
 const Avatar: React.FC = () => {
-  const base64Image = 'data:image/png;base64,...'; // truncated
+  const base64Image = "data:image/png;base64,..."; // truncated
 
-  return (
-    <img src={base64Image} alt="Avatar" />
-  );
+  return <img src={base64Image} alt="Avatar" />;
 };
 
 export default Avatar;

@@ -3,7 +3,7 @@ author: Yug Jadvani
 pubDatetime: 2024-08-31T21:06:49Z
 title: Unleashing the Power of Words Exploring Natural Language Processing (NLP) and Its Limitless Applications
 slug: unleashing-the-power-of-words-exploring-natural-language-processing-nlp-and-its-limitless
-featured: true
+featured: false
 draft: false
 tags:
   - ai

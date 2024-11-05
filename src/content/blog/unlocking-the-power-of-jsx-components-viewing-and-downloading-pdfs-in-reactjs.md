@@ -3,7 +3,7 @@ author: Yug Jadvani
 pubDatetime: 2024-08-31T21:06:49Z
 title: Unlocking the Power of JSX Components Viewing and Downloading PDFs in React
 slug: unlocking-the-power-of-jsx-components-viewing-and-downloading-pdfs-in-reactjs
-featured: true
+featured: false
 draft: false
 tags:
   - reactjs
