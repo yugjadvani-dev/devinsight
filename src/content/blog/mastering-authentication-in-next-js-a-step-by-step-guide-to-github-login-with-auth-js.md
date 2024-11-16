@@ -7,6 +7,7 @@ featured: false
 draft: false
 tags:
   - nextjs
+  - authjs
 description: Next.js has become a preferred framework for modern web applications due to its simplicity and flexibility.
 image: ./images/authjs.jpg
 ---
